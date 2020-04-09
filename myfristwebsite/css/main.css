@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+/**{
+    height: 100%;
+    min-width: 30%;
+    max-width: 1800%;
+}*/html{
+    height: 100%;
+    
+}
+body{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,195,195,40) 40%, rgba(10,62,59,1) 100%);
+box-sizing: border-box;
+height: 100%;
+}
+header { 
+background-color: white;
+}
+.logo{
+    width: 10%;
+    max-width: 6%;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.hello{
+display: flex;
+background-color: white;
+border: black;
+margin-right: 10px;
+}
+#ram-slideshow{
+    display: flex;
+    background-color: cadetblue;
+    justify-content: space-between;
+        
+}
+a{  
+      padding: 5px;
+    background-color: white;
+    color: black;
+    text-decoration:none;
+    font-weight: bolder;    
+}
+#menu-second{
+    display: flex;
+    
+}
+ul,li{
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 20px;
+}
+li{
+    display: inline-flex;
+}
+.text1{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 80%, rgb(233, 175, 93) 100%);
+padding: 2px;
+}
+h2{
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    margin-left: 10px;
+}
+.para1{
+    font-family: 'Cabin', sans-serif;
+        text-indent: 50px;
+        color: black;
+        font-size: 18px;
+        background-color: cadetblue;
+        margin:10px;
+        line-height: 40px;
+        padding-left: 8px;
+        text-align: justify;
+        padding-right: 8px;
+
+}
+b{
+    font-family: 'Cabin', sans-serif;
+    text-align: justify;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+}
+.sample-pic{
+    margin-left: 25%;
+}
+.copyright{
+    background-color: cadetblue;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+}
+/*
+hey
+{
+    display: flex;
+    float: right;
+}
+*/
+.picture1{
+    width: 390px;
+    height: 400px;
+    margin-left:28%;
+    max-width:50%;
+    max-height: 50%;  
+    border-style: inset;
+    border-color: currentColor;
+    border-top: ridge;
+}
+.field2 img{
+    width: 60%;
+    max-width: 90%;
+    min-width: 30%;
+    margin-left: 50px;
+    background-size:cover;
+    border-style: solid;
+    object-fit: cover;
+    object-position: center;
+}
+
+.hey{
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    
+}
+.signup{
+    width: 100%;
+    height: 69%;
+}
+p>label{
+    display: inline-block;
+    min-width: 150px;
+}
+
+.input{
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid teal;
+}
+.learn,.bottom-link{
+    text-align: end;
+}
+.learn,.bottom-link:hover{
+    color: firebrick;
+    cursor: pointer;
+}
